@@ -135,14 +135,6 @@ a:hover {
 	transform: scale(1.001,1.027);
 }
 
-/* hero */
-
-/*
-#hero img {
-	width: 100%;
-	height: auto;
-}
-*/
 
 .background-img {
 	max-width: 100%;
@@ -188,17 +180,36 @@ section button {
 	width: 200px;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/* hero */
+
+#hero {
+	margin-bottom: -1300px;
+}
+
+#hero .container {
+	z-index: 10;
+	position: absolute;
+	top: 275px;
+}
+
+#hero-img {
+	z-index: 0;
+}
+
 #sw-logo {
 	width: 364px;
 	height: 208px;
 }
 
-#hero {
-	margin-bottom: -1000px;
-}
 
 #hero p {
-	width: 33%;
+	width: 31%;
 }
 
 #closer-look, #pbteen {
@@ -208,6 +219,17 @@ section button {
 .slider img {
 	width: 990px;
 	height: 617px;
+}
+
+.slider-controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-controls p {
+	width: 50%;
 }
 
 footer {
