@@ -6,7 +6,7 @@ body {
 	margin: 0;
 }
 a {
-	text-decoration: none
+	text-decoration: none;
 }
 .upcase {
 	text-transform: uppercase;
@@ -17,7 +17,7 @@ a {
 #top-nav {
 	display: flex;
 	justify-content: space-between;
-	background-color: rgb(102, 102, 102)
+	background-color: rgb(177, 177, 177)
 }
 
 #tab-nav {
@@ -32,6 +32,10 @@ a {
 	color: #333333;
 	font-size: 0.56em;
 	font-weight: 400;
+}
+
+#brand-nav a {
+	color: #333333;
 }
 
 #ship-to {
@@ -97,7 +101,7 @@ a {
 
 #site-nav nav {
 	display: flex;
-	justify-content: space-between
+	justify-content: space-between;
 }
 
 #site-nav a {
