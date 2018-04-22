@@ -8,6 +8,10 @@ body {
 a {
 	text-decoration: none;
 }
+
+a:hover {
+	cursor: pointer;
+}
 .upcase {
 	text-transform: uppercase;
 }
@@ -131,7 +135,62 @@ a {
 	transform: scale(1.001,1.027);
 }
 
+/* hero */
+
+/*
 #hero img {
 	width: 100%;
 	height: auto;
+}
+*/
+
+.background-img {
+	max-width: 100%;
+	max-height: auto;
+}
+
+.video-placeholder {
+	width: 575px;
+	height: 396px;
+}
+
+h2 {
+	font-family: CenturyGothic;
+	color: #052e5c;
+	font-size: 2.64em;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 0.851;
+	transform: scale(1.064,1.064);
+}
+
+p {
+	font-family: CenturyGothic;
+	color: #052e5c;
+	font-size: 1.25em;
+	line-height: 1.3;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#sw-logo {
+	width: 364px;
+	height: 208px;
+}
+
+#hero p {
+	width: 633px;
+}
+
+#closer-look {
+	background-image: url(../assets/Rectangle.png)
+}
+
+#pbteen {
+	background-image: url(../assets/Rectangle.png);
+}
+
+.slider img {
+	width: 990px;
+	height: 617px;
 }
