@@ -9,29 +9,32 @@
 <body>
 
 <!-- Top Nav -->
-
-<!--crossbrand-->
+<section id="nav">
+	<!--crossbrand-->
 	<div id="top-nav">
-		<!-- tabs	-->
-		<nav id="tab-nav" class="upcase">
-			<a href="">Pottery Barn</a>
-			<a href="">PB/apartment</a>
-			<a href="">Baby</a>
-			<a href="">Kids</a>
-			<a href="">Teen</a>
-			<a href="">Dorm</a>
-		</nav>
+		<div class="nav-container">
+			<!-- tabs	-->
+			<nav id="tab-nav" class="upcase">
+				<a href="">Pottery Barn</a>
+				<a href="">PB/apartment</a>
+				<a href="">Baby</a>
+				<a href="">Kids</a>
+				<a href="">Teen</a>
+				<a href="">Dorm</a>
+			</nav>
 
-		<nav id="brand-nav">
-			<a href="">Williams Sonoma</a>
-			<a href="">WS Home</a>
-			<a href="">west elm</a>
-			<a href="">Rejuvenation</a>
-			<a href="">Mark and Graham</a> |
-			<a href="" id="ship-to">Ship To:
-				<img src="assets/small_flag.png" alt="small-flag">
-			</a>
-		</nav>
+			<nav id="brand-nav">
+				<a href="">Williams Sonoma</a>
+				<a href="">WS Home</a>
+				<a href="">west elm</a>
+				<a href="">Rejuvenation</a>
+				<a href="">Mark and Graham</a> |
+				<a href="" id="ship-to">Ship To:
+					<img src="assets/small_flag.png" alt="small-flag">
+				</a>
+			</nav>
+		</div>
+
 	</div>
 
 	<div>
@@ -53,9 +56,9 @@
 			<!-- welcome -->
 			<div id="welcome">
 				<nav>
-						Welcome, Julie! <a href="">Sign Out</a>
-						<a href="" class="upcase">My account</a>
-						<a href="" class="upcase">Track your order</a>
+					Welcome, Julie! <a href="">Sign Out</a>
+					<a href="" class="upcase">My account</a>
+					<a href="" class="upcase">Track your order</a>
 				</nav>
 				<!-- search -->
 				<div id="search">
@@ -63,8 +66,8 @@
 						<input type="text" placeholder="Search">
 						<img src="assets/Vector_Smart_Object.png" alt="search-icon">
 					</label>
-				<!-- checkout -->
-				<button id="checkout" class="upcase">Checkout</button>
+					<!-- checkout -->
+					<button id="checkout" class="upcase">Checkout</button>
 				</div>
 			</div>
 		</div>
@@ -102,9 +105,14 @@
 		</div>
 
 	</div>
+</section>
+
 
 	<!-- hero -->
 	<section id="hero">
+		<div class="background-img-container">
+			<img id="hero-img" class="background-img" src="assets/Image.png" alt="">
+		</div>
 		<div class="container">
 			<img id="sw-logo" src="assets/Star_Wars_logo.png" alt="star-wars-logo">
 			<p>
@@ -114,7 +122,6 @@
 				<a href="" class="upcase">Shop the collection</a>
 			</button>
 		</div>
-    <img id="hero-img" class="background-img" src="assets/Image.png" alt="">
 	</section>
 
 	<!-- Closer Look -->
@@ -147,12 +154,16 @@
 	<!-- Behind the scenes -->
 
   <section id="behind-the-scenes" class="">
-    <h2 class="upcase">Go behind the scenes</h2>
-		<p>
-			Press "play" for an up-close look at the bedding, decor, furniture and more in our newest Star Wars Collection.
-		</p>
-		<img src="assets/Video-placeholder.png" alt="video-placeholder" class="video-placeholder">
-		<img class="background-img" src="assets/bts-rey.png" alt="">
+		<div class="background-img-container">
+			<img class="background-img" src="assets/bts-rey.png" alt="">
+		</div>
+		<div class="container video-container">
+			<h2 class="upcase">Go behind the scenes</h2>
+			<p>
+				Press "play" for an up-close look at the bedding, decor, furniture and more in our newest Star Wars Collection.
+			</p>
+			<img src="assets/Video-placeholder.png" alt="video-placeholder" class="video-placeholder">
+		</div>
   </section>
 
 	<!-- Party -->
@@ -187,15 +198,20 @@
 	<!-- Videos -->
 
   <section id="videos">
-		<img class="background-img" src="assets/bb-8.png" alt="bb-8">
-    <h2 class="upcase">Want more videos?</h2>
-		<p>
-			Head over to our Star Wars video page for even more exclusive videos of the entire collection.
-		</p>
-		<img src="assets/Video-placeholder.png" alt="video-placeholder" class="video-placeholder">
-    <button type="button" name="button">
-      <a href="" class="upcase">Watch the videos</a>
-    </button>
+		<div class="background-img-container">
+			<img class="background-img" src="assets/bb-8.png" alt="bb-8">
+		</div>
+
+		<div class="container video-container">
+			<h2 class="upcase">Want more videos?</h2>
+			<p>
+				Head over to our Star Wars video page for even more exclusive videos of the entire collection.
+			</p>
+			<img src="assets/Video-placeholder.png" alt="video-placeholder" class="video-placeholder">
+			<button type="button" name="button">
+				<a href="" class="upcase">Watch the videos</a>
+			</button>
+		</div>
   </section>
 
 	<!-- More at PBTeen -->
