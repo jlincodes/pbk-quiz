@@ -171,6 +171,21 @@ p {
 	line-height: 1.3;
 	font-weight: 400;
 	font-style: italic;
+	text-align: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section button {
+	background-color: navy;
+	color: white;
+	height: 40px;
+	width: 200px;
 }
 
 #sw-logo {
@@ -178,19 +193,23 @@ p {
 	height: 208px;
 }
 
+#hero {
+	margin-bottom: -1000px;
+}
+
 #hero p {
-	width: 633px;
+	width: 33%;
 }
 
-#closer-look {
+#closer-look, #pbteen {
 	background-image: url(../assets/Rectangle.png)
-}
-
-#pbteen {
-	background-image: url(../assets/Rectangle.png);
 }
 
 .slider img {
 	width: 990px;
 	height: 617px;
+}
+
+footer {
+	margin-top: -109px;
 }
