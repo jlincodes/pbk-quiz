@@ -21,3 +21,5 @@ For the image slideshows, I decided to take a little creative liberty and make a
 - Dropdown menus upon hover for site navigation
 - Refactor my CSS
   - I considered using SCSS, however, I decided to stick to what I was already familiar with. I was already utilizing extra time to learn a new tool (Dreamweaver), so I decided not to spread myself too thin to be more efficient with the time I had.
+- Mobile Responsiveness
+  - If given more time, I would have liked to put a lot more thought into the responsiveness of this site.
