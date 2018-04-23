@@ -6,7 +6,6 @@ const allSlides = [lookbookSlides, partySlides, pbteenSlides];
 let slideIndex = 1;
 
 function displaySlide(n, slides) {
-  console.log("slideidx", slideIndex);
   if (n > slides.length) slideIndex = 1;
   if (n < 1) slideIndex = slides.length;
 
