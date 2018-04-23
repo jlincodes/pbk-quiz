@@ -4,12 +4,9 @@ const pbteenSlides = document.getElementById('pbteen-slider').children;
 const allSlides = [lookbookSlides, partySlides, pbteenSlides];
 
 let slideIndex = 1;
-allSlides.forEach( slides => {
-  displaySlide(slideIndex, slides);
-});
 
 function displaySlide(n, slides) {
-
+  console.log("slideidx", slideIndex);
   if (n > slides.length) slideIndex = 1;
   if (n < 1) slideIndex = slides.length;
 
@@ -44,3 +41,17 @@ prevButtons.forEach( (prev, i) => {
     prevSlide(allSlides[idx]);
   });
 });
+
+allSlides.forEach( slides => {
+  displaySlide(slideIndex, slides);
+});
+
+function autoPlay() {
+  slideIndex += 1;
+
+  allSlides.forEach( slides => {
+    displaySlide(slideIndex, slides);
+  });
+}
+
+window.setInterval(autoPlay, 3000);
